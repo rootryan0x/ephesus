@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build
+dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Database & local data
+server/data/*.db
+server/data/*.db-wal
+server/data/*.db-shm
+
+# Uploads
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Temporary / Scratch files
+scratch/
+*.log
